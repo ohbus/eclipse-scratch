@@ -232,12 +232,12 @@
 					</dependency>
 				</dependencies>
 				<executions>
-					<execution>
+					<!-- <execution>
 						<goals>
-							<goal>compile</goal>       <!-- weave all main classes -->
-							<goal>test-compile</goal>  <!-- weave all test classes -->
+							<goal>compile</goal>       weave all main classes
+							<goal>test-compile</goal>  weave all test classes
 						</goals>
-					</execution>
+					</execution> -->
 				</executions>
 				<configuration>
 					<outxml>true</outxml>
